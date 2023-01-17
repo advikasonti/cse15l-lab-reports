@@ -8,7 +8,7 @@ Follow the installation instructions specific to your computer using the Visual 
 [website](https://code.visualstudio.com/). 
 Once installed, the opened application interface should look like this:
 
-![Image1.png](https://github.com/advikasonti/cse15l-lab-reports/blob/4b4f923fd722a8989de0e361cb4b3881458bce92/Image1.png)
+![Image1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Image1.png)
 
 ### 2. Remotely Connecting
 
