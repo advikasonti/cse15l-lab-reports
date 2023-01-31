@@ -2,7 +2,7 @@
 
 ##  Servers and Bugs
 
-### Part 1:
+### Part 1: StringServer
 
 For tis lab, I created a StringServer class that suppports the path and behavior of keeping track of a single string that gets added to by incoming requests. Here is my code for the method that does this:
 
@@ -20,7 +20,18 @@ Lastly, I tried to make an `/add-message?` request without properly adding the `
 
 ![NotFound.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/NotFound.png)
 
-### Part 2:
+### Part 2: Array Bugs
 
+Failure-inducing input for the buggy program:
+
+```
+@Test
+  public void testReverseInPlaceNew() {
+    int[] input1 = {2,1,5,3,4};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{4,3,5,1,2}, input1);
+  }
+  ```
+ 
 
 
