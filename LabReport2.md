@@ -2,7 +2,7 @@
 
 ##  Servers and Bugs
 
-### 1. Part 1
+### Part 1:
 
 For tis lab, I created a StringServer class that suppports the path and behavior of keeping track of a single string that gets added to by incoming requests. Here is my code for the method that does this:
 
@@ -20,5 +20,7 @@ Lastly, I tried to make an `/add-message?` request without properly adding the `
 
 ![NotFound.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/NotFound.png)
 
-### Part 2
+### Part 2:
+
+
 
