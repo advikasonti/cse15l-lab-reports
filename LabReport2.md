@@ -23,7 +23,6 @@ Lastly, I tried to make an `/add-message?` request without properly adding the `
 ### Part 2: Array Bugs
 
 Failure-inducing input for the buggy program:
-
 ```
 @Test
   public void testReverseInPlaceNew() {
@@ -32,6 +31,14 @@ Failure-inducing input for the buggy program:
     assertArrayEquals(new int[]{4,3,5,1,2}, input1);
   }
   ```
- 
+ Input that passes the buggy program:
+ ```
+ 	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+  ```
 
 
