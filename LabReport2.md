@@ -31,6 +31,7 @@ Failure-inducing input for the buggy program:
     assertArrayEquals(new int[]{4,3,5,1,2}, input1);
   }
   ```
+  
   The symptom:
   ![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
   
@@ -43,6 +44,7 @@ Failure-inducing input for the buggy program:
     assertArrayEquals(new int[]{ 3 }, input1);
   }
   ```
+  
   The symptom:
   ![Symptom2.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom2.png)
   
