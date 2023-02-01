@@ -4,7 +4,7 @@
 
 ### Part 1: StringServer
 
-For this lab, I created a StringServer class that suppports the path and behavior of keeping track of a single string that gets added to by incoming requests. Here is my code for the method that does this:
+For tis lab, I created a StringServer class that suppports the path and behavior of keeping track of a single string that gets added to by incoming requests. Here is my code for the method that does this:
 
 ![Code.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Code.png)
 
@@ -31,8 +31,8 @@ Failure-inducing input for the buggy program:
     assertArrayEquals(new int[]{4,3,5,1,2}, input1);
   }
   ```
-Symptom:
-![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
+  The symptom:
+  ![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
   
  Input that passes the buggy program:
  ```
@@ -43,5 +43,36 @@ Symptom:
     assertArrayEquals(new int[]{ 3 }, input1);
   }
   ```
+  The symptom:
+  ![Symptom2.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom2.png)
+  
+  Code before (with bug):
+  ```
+   static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ```
+  
+  Code after (fixed bug):
+  ```
+   static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[i];
+    }
+  } 
+  ```
+  
+The bug was that the reverseInPlace method, in the initial version, would replace the values in the array as it was reversing it. This caused the method to only reverse half of the array such that first half became a reflection of the second half of the array. To fix this bug, I just changed the program to reverse the entire given array into a new array such that none of the values of the given array are lost. Then I simply set the original array to the new one after the complete conversion. 
+
+### Part 3: Something I Learned
+
+In this past couple weeks, the primary takeaway that I have learned from class and from lab is how to create and use URLs and URL handlers and methods. This is not something that I had prior knowledge on or previously ever experimented with, so it was fascinating to be able to play around with URL functions and create my own to further understand how they work. 
+
 
 
