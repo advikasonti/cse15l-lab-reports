@@ -33,6 +33,7 @@ Failure-inducing input for the buggy program:
   ```
   
   The symptom:
+  
   ![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
   
  Input that passes the buggy program:
