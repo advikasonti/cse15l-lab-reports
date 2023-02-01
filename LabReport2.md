@@ -46,6 +46,7 @@ Failure-inducing input for the buggy program:
   ```
   
   The symptom:
+  
   ![Symptom2.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom2.png)
   
   Code before (with bug):
