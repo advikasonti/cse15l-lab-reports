@@ -4,7 +4,7 @@
 
 ### Part 1: StringServer
 
-For tis lab, I created a StringServer class that suppports the path and behavior of keeping track of a single string that gets added to by incoming requests. Here is my code for the method that does this:
+For this lab, I created a StringServer class that suppports the path and behavior of keeping track of a single string that gets added to by incoming requests. Here is my code for the method that does this:
 
 ![Code.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Code.png)
 
@@ -31,8 +31,8 @@ Failure-inducing input for the buggy program:
     assertArrayEquals(new int[]{4,3,5,1,2}, input1);
   }
   ```
-  Symptom:
-  ![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
+Symptom:
+![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
   
  Input that passes the buggy program:
  ```
