@@ -31,14 +31,17 @@ Failure-inducing input for the buggy program:
     assertArrayEquals(new int[]{4,3,5,1,2}, input1);
   }
   ```
+  Symptom:
+  ![Symptom1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Symptom1.png)
+  
  Input that passes the buggy program:
  ```
- 	@Test 
-	public void testReverseInPlace() {
+@Test 
+  public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+  }
   ```
 
 
