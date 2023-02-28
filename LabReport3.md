@@ -3,7 +3,7 @@
 ##  Researching Commands (find)
 
 ### Option 1: -name
-The `-name` command searches for files with the given string in the name and returns a full list of them. 
+The `-name` command searches for files or directories with the given string in the name and returns a full list of them. 
 
 #### Example 1
 In the code block below, I searched for files that begin with the word `History` in the title, and it returned a list of all of the files in `written_2` that contained that in the name.
@@ -43,7 +43,7 @@ written_2/non-fiction/OUP/Fletcher/ch2.txt
 ```
 
 ### Option 2: -type
-The `-type` command intuitively searched for a file or directory of certain type. 
+The `-type` command intuitively searches for a file or directory of certain type. 
 
 #### Example 1
 Below, I used it to find `d`, which looks for anything that is of a directory type under `written_2`. 
@@ -123,7 +123,7 @@ written_2/non-fiction/OUP/Kauffman/ch9.txt
 ```
 
 ### Option 4: -mtime
-The `mtime` command in `find` searches for files that were modified a specified number of days ago. It operates similar to the `-size` command in that you can use `+` or `-` to find files that were modified before or after the specified number of days ago.
+The `mtime` command in `find` searches for files and directories that were modified a specified number of days ago. It operates similar to the `-size` command in that you can use `+` or `-` to find files and directories that were modified before or after the specified number of days ago.
 
 #### Example 1
 In the example below, only one file was returned. This is because I searched for files that were modified exactly 24 days ago, for which there was only one under the entire `written_2` directory.
