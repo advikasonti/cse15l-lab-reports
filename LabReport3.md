@@ -379,7 +379,7 @@ written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 
 
 ## Sources
-I used ChatGPT to research possible find commands. 
+I used ChatGPT to research all of the aforementioned commands discussed in this lab report. 
 
 
 
