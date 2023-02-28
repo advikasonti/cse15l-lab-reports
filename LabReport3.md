@@ -75,12 +75,7 @@ written_2/non-fiction/OUP/Castro/chO.txt
 ```
 
 ### Option 3: -size
-The `-size` command searched for files with a specified size given by any of the following values: 
-  `c` - bytes
-  `k` - kilobytes
-  `M` - megabytes
-  `G` - gigabytes
-  You can also specify the search to find files that are larger or smaller than the given size using `+` or `-` before the value to be searched for.
+The `-size` command searched for files with a specified size given by any of the following values: `c`: bytes, `k`: kilobytes, `M`: megabytes, `G`: gigabytes. You can also specify the search to find files that are larger or smaller than the given size using `+` or `-` before the value to be searched for.
 
 #### Example 1
 In the example below, I found files in the `non-fiction/OUP` directory under `written_2` that are smaller than 40 kilobytes.
