@@ -32,7 +32,6 @@ written_2/travel_guides/berlitz1/HistoryEdinburgh.txt
 written_2/travel_guides/berlitz1/HistoryFWI.txt
 written_2/travel_guides/berlitz1/HistoryLakeDistrict.txt
 ```
-
 #### Example 2
 In the example below, I searched specifically in the `non-fiction` directory under `written_2` for all of the files that included `ch2` in the name.
 ```
@@ -55,7 +54,6 @@ written_2/non-fiction/OUP/Abernathy/ch2.txt
 written_2/non-fiction/OUP/Rybczynski/ch2.txt
 written_2/non-fiction/OUP/Fletcher/ch2.txt
 ```
-
 #### Example 2
 With the knowledge from the above example, I then went more specifically into the `non-fiction/OUP/Castro` directory under `written_2` to find everything of type file, or `f`, in that specified directory.
 ```
@@ -78,11 +76,11 @@ written_2/non-fiction/OUP/Castro/chO.txt
 
 ### Option 3: -size
 The `-size` command searched for files with a specified size given by any of the following values: 
-`c` - bytes
-`k` - kilobytes
-`M` - megabytes
-`G` - gigabytes
-You can also specify the search to find files that are larger or smaller than the given size using `+` or `-` before the value to be searched for.
+  `c` - bytes
+  `k` - kilobytes
+  `M` - megabytes
+  `G` - gigabytes
+  You can also specify the search to find files that are larger or smaller than the given size using `+` or `-` before the value to be searched for.
 
 #### Example 1
 In the example below, I found files in the `non-fiction/OUP` directory under `written_2` that are smaller than 40 kilobytes.
@@ -116,7 +114,6 @@ written_2/non-fiction/OUP/Castro/chN.txt
 written_2/non-fiction/OUP/Castro/chY.txt
 written_2/non-fiction/OUP/Castro/chO.txt
 ```
-
 #### Example 2
 In the code block below, I used a similar search while slightly altering the arguments to find all the files under `non-fiction/OUP` that are larger than 70 kilobytes.
 ```
