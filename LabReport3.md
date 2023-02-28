@@ -2,10 +2,10 @@
 
 ##  Researching Commands (find)
 
-### -name
+### Optione 1: -name
 
-The `-name` command searches for files with the given string in the name and returns a full list of them. In the code block below, I searched for files that begin with the word History in the title, and it returned a list of all of the files in `written_2` that contained that in the name.
-
+### Example 1
+The `-name` command searches for files with the given string in the name and returns a full list of them. In the code block below, I searched for files that begin with the word `History` in the title, and it returned a list of all of the files in `written_2` that contained that in the name.
 ```
 advikasonti@Advikas-MacBook-Pro docsearch % find written_2 -name "History*" 
 written_2/travel_guides/berlitz1/HistoryJapan.txt
@@ -31,3 +31,22 @@ written_2/travel_guides/berlitz1/HistoryEdinburgh.txt
 written_2/travel_guides/berlitz1/HistoryFWI.txt
 written_2/travel_guides/berlitz1/HistoryLakeDistrict.txt
 ```
+
+#### Example 2
+In the example below, I searched specifically in the `non-fiction` directory under `written_2` for all of the files that included `ch2` in the name.
+```
+advikasonti@Advikas-MacBook-Pro docsearch % find written_2/non-fiction -name "*ch2*"
+written_2/non-fiction/OUP/Berk/ch2.txt
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written_2/non-fiction/OUP/Rybczynski/ch2.txt
+written_2/non-fiction/OUP/Fletcher/ch2.txt
+```
+
+### Option 2: 
+
+#### Example 1
+
+
+
+
+
