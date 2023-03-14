@@ -22,4 +22,4 @@ I then typed `nano ListExamples.java` to edit the code. I fixed the code by chan
 For this step, I pressed `<up><up><up><enter>` and then again `<up><up><up><enter>` to find and execute the JUnit tests once again.
 ![Step5.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Step5.png)
 
-### Commit and push
+### 6. Commit and push
