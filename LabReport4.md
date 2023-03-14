@@ -11,8 +11,15 @@ Here, I simply typed git clone and then copy pasted the ssh using `<Cmd+C>` and 
 ![Step2.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Step2.png)
 
 ### 3. Run tests
-This step I pressed `<up><up><up><up><up><up><enter>` and then again `<up><up><up><up><up><up><enter>` to find and execute the JUnit tests.
+For this step I pressed `<up><up><up><up><up><up><enter>` and then again `<up><up><up><up><up><up><enter>` to find and execute the JUnit tests.
 ![Step3.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Step3.png)
 
 ### 4. Fix the code
 I then typed `nano ListExamples.java` to edit the code. I fixed the code by changing `index1` to `index2` in the 43rd line, and saved it with `<Cmd+X>` and `Y` to save upon request.
+![Step4.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Step4.png)
+
+### 5. Run tests again
+For this step, I pressed `<up><up><up><enter>` and then again `<up><up><up><enter>` to find and execute the JUnit tests once again.
+![Step5.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Step5.png)
+
+### Commit and push
