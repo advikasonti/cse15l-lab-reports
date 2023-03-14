@@ -59,6 +59,23 @@ We unfortunately could not figure out how to get the script to report the studen
 
 ### Running the Script
 
+To test the script, we ran it on several given files to experiment with various edge cases. All the provided student test file names are listed below followed by the output of the grading script.
+
+#### list-methods-lab3
+![Grade1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade1.png)
+
+#### list-methods-corrected
+
+#### list-methods-compile-error
+
+#### list-methods-signature
+
+#### list-methods-filename
+
+#### list-methods-nested
+
+
+
 
 
 
