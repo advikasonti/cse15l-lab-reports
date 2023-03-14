@@ -38,8 +38,26 @@ cp student-submission/ListExamples.java grader
 cp -r lib grader
 ```
 #### Step 4: Compiling your tests and the student’s code from the appropriate directory.
+```
+# Step 4:
+cd grader
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+if [[ $? -eq 0 ]]
+then 
+echo "compile succeeds"
+else 
+echo "compilation error"
+exit 1
+fi
+```
+#### Step 5: Run the tests and report the grade based on the JUnit output.
+```
+# Step 5: 
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
+We unfortunately could not figure out how to get the script to report the student's final grade, but we did get the grader to run and to work appropriately for any given student's files.
 
-
+### Running the Script
 
 
 
