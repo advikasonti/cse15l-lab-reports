@@ -65,14 +65,19 @@ To test the script, we ran it on several given files to experiment with various 
 ![Grade1.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade1.png)
 
 #### list-methods-corrected
+![Grade2.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade2.png)
 
 #### list-methods-compile-error
+![Grade3.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade3.png)
 
 #### list-methods-signature
+![Grade4.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade4.png)
 
 #### list-methods-filename
+![Grade5.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade5.png)
 
 #### list-methods-nested
+![Grade6.png](https://raw.githubusercontent.com/advikasonti/cse15l-lab-reports/main/Grade6.png)
 
 
 
